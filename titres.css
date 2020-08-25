@@ -1,0 +1,78 @@
+body
+{
+	background-color: #E9C495;
+	font-size: large;
+	color: brown;
+	font-size: 1.1em;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+h1
+{
+	text-align: center;
+	color: white;
+}
+
+h2
+{
+	font-size: 1.7em;
+	color: white;
+}
+
+.annee
+{
+	color: black;
+	
+}
+
+footer
+{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.etablissement
+{
+	padding-bottom: 10%;
+	margin-right: 20%;
+	display: flex;
+	justify-content: space-around;
+	list-style-image: url('img/puce_formation.png');
+}
+
+nav
+{
+	background : url(img/fond_orange.gif);
+	color: white;
+	opacity: 0.7;
+		position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+
+nav p{
+	text-align: center;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: brown;
+
+}
+
+
+.Langues{
+	display: flex;
+	justify-content: space-around;
+}
+
+

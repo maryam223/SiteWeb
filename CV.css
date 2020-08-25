@@ -1,0 +1,81 @@
+body
+{
+	background-color: #E9C495;
+	
+}
+
+h1
+{
+	text-align: center;
+	color: white;
+}
+
+.photo
+{
+	text-align: center;
+}
+
+p
+{
+	color: brown;
+	width: 50%;
+	text-align: center;
+}
+
+.quote
+{
+	font-style: italic;
+	color: #AD7D15;
+}
+
+nav, #presentation
+{
+display: flex;
+	justify-content: space-around;
+}
+
+#presentation
+{
+	margin-right: 20%;
+}
+
+.titres{
+	border : 4px brown solid;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px brown;
+	padding: 45px;
+	text-align: center;
+
+}
+
+.titres a{
+	color: white;
+	text-decoration: none;
+}
+
+.titres:hover {
+	border : 4px white solid;
+	box-shadow: 4px 4px 4px white;
+
+}
+
+a:hover{
+	color: brown;
+}
+
+footer p
+{
+	color: brown;
+	font-weight: bold;
+	margin: auto;
+	}
+
+#lien_cv
+{
+	padding-top: 1%;
+}
+
+strong
+{
+	font-weight: bold;
+}
